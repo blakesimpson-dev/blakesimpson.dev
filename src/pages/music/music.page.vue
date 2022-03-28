@@ -1,5 +1,8 @@
 <template>
-  <Page pageTitle="Music">
+  <Page 
+    pageTitle="Music"
+    :videoBGSource="videoBackground"
+  >
     <template #splash>
       <div class="splash">
         <div class="splash__header">
@@ -37,6 +40,7 @@ export default {
 import { SoundcloudIFrame } from "@/common/types"
 import Page from "@/common/components/page/page.vue"
 import MusicData from "./music.data.json"
+import videoBackground from "@/assets/videos/kataplexia-1080.mp4"
 import "./music.page.scss"
 
 const DefaultSoundcloudIFrame = {

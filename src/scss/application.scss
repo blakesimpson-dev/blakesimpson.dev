@@ -1,95 +1,92 @@
 @import "./variables.scss";
 
 @font-face {
-  font-family: 'Noto Sans';
-  src: url('assets/fonts/NotoSans-Italic.woff2') format('woff2'),
-      url('assets/fonts/NotoSans-Italic.woff') format('woff');
+  font-family: "Noto Sans";
+  src: url("@/assets/fonts/NotoSans-Italic.woff2") format("woff2"),
+    url("@/assets/fonts/NotoSans-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans';
-  src: url('assets/fonts/NotoSans-BoldItalic.woff2') format('woff2'),
-      url('assets/fonts/NotoSans-BoldItalic.woff') format('woff');
+  font-family: "Noto Sans";
+  src: url("@/assets/fonts/NotoSans-BoldItalic.woff2") format("woff2"),
+    url("@/assets/fonts/NotoSans-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans';
-  src: url('assets/fonts/NotoSans-Bold.woff2') format('woff2'),
-      url('assets/fonts/NotoSans-Bold.woff') format('woff');
+  font-family: "Noto Sans";
+  src: url("@/assets/fonts/NotoSans-Bold.woff2") format("woff2"), url("@/assets/fonts/NotoSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans';
-  src: url('assets/fonts/NotoSans.woff2') format('woff2'),
-      url('assets/fonts/NotoSans.woff') format('woff');
+  font-family: "Noto Sans";
+  src: url("@/assets/fonts/NotoSans.woff2") format("woff2"), url("@/assets/fonts/NotoSans.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans JP';
-  src: url('assets/fonts/NotoSansJP-Bold-Alphabetic.woff2') format('woff2'),
-      url('assets/fonts/NotoSansJP-Bold-Alphabetic.woff') format('woff');
+  font-family: "Noto Sans JP";
+  src: url("@/assets/fonts/NotoSansJP-Bold-Alphabetic.woff2") format("woff2"),
+    url("@/assets/fonts/NotoSansJP-Bold-Alphabetic.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans JP';
-  src: url('assets/fonts/NotoSansJP-Light-Alphabetic.woff2') format('woff2'),
-      url('assets/fonts/NotoSansJP-Light-Alphabetic.woff') format('woff');
+  font-family: "Noto Sans JP";
+  src: url("@/assets/fonts/NotoSansJP-Light-Alphabetic.woff2") format("woff2"),
+    url("@/assets/fonts/NotoSansJP-Light-Alphabetic.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans JP';
-  src: url('assets/fonts/NotoSansJP-Black-Alphabetic.woff2') format('woff2'),
-      url('assets/fonts/NotoSansJP-Black-Alphabetic.woff') format('woff');
+  font-family: "Noto Sans JP";
+  src: url("@/assets/fonts/NotoSansJP-Black-Alphabetic.woff2") format("woff2"),
+    url("@/assets/fonts/NotoSansJP-Black-Alphabetic.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans JP';
-  src: url('assets/fonts/NotoSansJP-Regular-Alphabetic.woff2') format('woff2'),
-      url('assets/fonts/NotoSansJP-Regular-Alphabetic.woff') format('woff');
+  font-family: "Noto Sans JP";
+  src: url("@/assets/fonts/NotoSansJP-Regular-Alphabetic.woff2") format("woff2"),
+    url("@/assets/fonts/NotoSansJP-Regular-Alphabetic.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans JP';
-  src: url('assets/fonts/NotoSansJP-Thin-Alphabetic.woff2') format('woff2'),
-      url('assets/fonts/NotoSansJP-Thin-Alphabetic.woff') format('woff');
+  font-family: "Noto Sans JP";
+  src: url("@/assets/fonts/NotoSansJP-Thin-Alphabetic.woff2") format("woff2"),
+    url("@/assets/fonts/NotoSansJP-Thin-Alphabetic.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans JP';
-  src: url('assets/fonts/NotoSansJP-Medium-Alphabetic.woff2') format('woff2'),
-      url('assets/fonts/NotoSansJP-Medium-Alphabetic.woff') format('woff');
+  font-family: "Noto Sans JP";
+  src: url("@/assets/fonts/NotoSansJP-Medium-Alphabetic.woff2") format("woff2"),
+    url("@/assets/fonts/NotoSansJP-Medium-Alphabetic.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
-
 
 html,
 body {
