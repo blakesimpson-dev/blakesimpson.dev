@@ -1,0 +1,36 @@
+@import "@/scss/variables.scss";
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+
+  > * {
+    margin: $margin--standard;
+  }
+
+  &__title {
+
+  }
+
+  &__content {
+
+  }
+
+  &__images {
+
+    > * {
+      margin: $margin--standard;
+    }
+
+    img {
+      max-width: 300px;
+    }
+  }
+
+  &__links {
+    
+  }
+}

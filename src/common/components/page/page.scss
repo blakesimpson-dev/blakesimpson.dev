@@ -1,0 +1,23 @@
+@import "@/scss/variables.scss";
+
+.video-background {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: calc($header-height + $header-padding * 2);
+  width: 100%;
+  z-index: $z-index--content;
+  font-size: $font-size--regular;
+
+  &__splash {
+    min-height: calc(100vh - calc($header-height + $header-padding * 2));
+  }
+
+  &__panel {
+    background-color: $color--black;
+  }
+}

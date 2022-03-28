@@ -1,0 +1,68 @@
+@import "@/scss/variables.scss";
+
+.splash {
+  min-height: calc(100vh - calc($header-height + $header-padding * 2));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__header,
+  &__footer {
+    padding: calc($padding--standard);
+  }
+
+  &__header {
+    > * {
+      &:not(:first-child) {
+        margin-top: calc($margin--standard * 2);
+      }
+    }
+  }
+
+  &__footer {
+    color: $color--atomic-tangerine;
+    font-size: $font-size--large;
+  }
+}
+
+.splash-row {
+  display: flex;
+  font-size: 4rem;
+
+  > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: calc($margin--standard * 2);
+  }
+}
+
+.splash-item--one,
+.splash-item--two,
+.splash-item--three {
+  height: 5rem;
+  padding: $padding--standard;
+}
+
+.splash-item--one {
+  width: 5rem;
+  border: 10px solid $color--pastel-orange;
+  border-radius: 100px;
+  color: $color--atomic-tangerine;
+}
+
+.splash-item--two {
+  width: fit-content;
+  border: 10px solid $color--pastel-orange;
+  border-radius: 100px;
+  color: $color--pastel-blue;
+  background-color: $color--pastel-orange;
+}
+
+.splash-item--three {
+  width: fit-content;
+  border: 10px solid $color--pastel-orange;
+  border-radius: 25px;
+  color: $color--pastel-blue;
+  background-color: $color--pastel-orange;
+}

@@ -1,0 +1,30 @@
+$color--white: #e6e6ffff;
+$color--pastel-blue: #6c8fb8;
+$color--pale-cerulean: #9FC0DE;
+$color--peach-orange: #F2C894;
+$color--pastel-orange: #FFB347;
+$color--atomic-tangerine: #FF985A;
+$color--black: #0a0c14ff;
+
+$font-family--default: "NotoSans";
+$font-family--jp: "NotoSansJP";
+$font-weight--regular: 400;
+$font-weight--semibold: 600;
+$font-weight--bold: 700;
+$font-size--large: 1.75rem;
+$font-size--regular: 1rem;
+$font-size--small: 0.625rem;
+$font-size--input: 14px;
+
+$header-height: 4rem;
+$header-padding: 1rem;
+
+$scrollbar-width: 8px; // corresponds to `scrollbar-width: thin;`
+$scrollbar-height: 8px; // corresponds to `scrollbar-width: thin;`
+
+$z-index--header: 1100;
+$z-index--content: 1050;
+$z-index--background: 1000;
+
+$padding--standard: 1rem;
+$margin--standard: 1rem;

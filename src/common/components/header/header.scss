@@ -1,0 +1,40 @@
+@import "@/scss/variables.scss";
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: $header-height;
+  z-index: $z-index--header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $header-padding;
+  font-size: $font-size--large;
+  background-color: $color--black;
+
+  &__title,
+  &__items { 
+    a {
+      cursor: pointer;
+  
+      &:hover {
+        color: $color--pastel-blue;
+      }
+  
+      b {
+        color: $color--atomic-tangerine;
+      }
+    }
+  }
+
+  &__items {
+    margin-right: calc($margin--standard * 2);
+
+    > * {
+      &:not(:last-child) {
+        margin-left: $margin--standard;
+      }
+      
+    }
+  }
+}

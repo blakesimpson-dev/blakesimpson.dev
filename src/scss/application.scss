@@ -1,0 +1,43 @@
+@import "./variables.scss";
+
+@font-face {
+  font-family: "NotoSans";
+  src: local("NotoSans"), url(./assets/fonts/NotoSans/NotoSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  src: local("NotoSansJP"), url(./assets/fonts/NotoSansJP/NotoSansJP-Regular.otf) format("opentype");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family--default;
+  color: $color--white;
+  background-color: $color--black;
+  scrollbar-color: $color--pastel-orange $color--black;
+  scrollbar-width: thin;
+
+  ::-webkit-scrollbar {
+    width: $scrollbar-width;
+    height: $scrollbar-height;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: $color--black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: $color--pastel-orange;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: darken($color--pastel-orange, 5%);
+  }
+}
+
+.jp {
+  font-family: $font-family--jp;
+}
