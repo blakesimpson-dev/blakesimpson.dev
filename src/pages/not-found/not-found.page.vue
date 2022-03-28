@@ -12,7 +12,7 @@ export default {
 </script>
 
 <script setup lang="ts">
-import debugImage from "@/assets/images/kataplexia-vape.png"
+import debugImage from "@/assets/images/kataplexia-vape.jpg"
 import "./not-found.page.scss"
 </script>
 

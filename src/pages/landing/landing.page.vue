@@ -44,7 +44,7 @@ export default {
 
 <script setup lang="ts">
 import Page from "@/common/components/page/page.vue"
-import debugImage from "@/assets/images/kataplexia-vape.png"
+import debugImage from "@/assets/images/kataplexia-vape.jpg"
 import videoBackground from "@/assets/videos/kataplexia-1080.mp4"
 import "./landing.page.scss"
 </script>
