@@ -34,6 +34,9 @@ interface PageProps {
 
 withDefaults(defineProps<PageProps>(), {
   videoBGSource: "/assets/videos/kataplexia-1080.mp4"
+  // videoBGSource: "https://drive.google.com/uc?export=download&id=1LkBVKQo-IThD2TQEULE7znryZ_dbygpY" // 1080p
+  // videoBGSource: "https://drive.google.com/uc?export=download&id=1jq8FMrlgihYkpRY_elHyk9Da3dEjVXXA" // 720p
+  // videoBGSource: "https://drive.google.com/uc?export=download&id=15XXjLjsosDtxUSwJerllXptoF3sHewkI" // 540p
 })
 </script>
 
