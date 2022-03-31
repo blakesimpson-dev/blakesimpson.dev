@@ -1,14 +1,14 @@
 @import "@/scss/variables.scss";
 
 .splash {
-  min-height: calc(100vh - calc($header-height + $header-padding * 2));
+  min-height: calc(100vh - $header-height);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   &__header,
   &__footer {
-    padding: calc($padding--standard);
+    padding: calc($padding--standard * 2);
   }
 
   &__header {
@@ -20,14 +20,14 @@
   }
 
   &__footer {
-    color: $color--atomic-tangerine;
+    color: $color--accent;
     font-size: $font-size--large;
   }
 }
 
 .splash-row {
   display: flex;
-  font-size: 4rem;
+  font-size: 80px;
 
   > * {
     display: flex;
@@ -40,29 +40,32 @@
 .splash-item--one,
 .splash-item--two,
 .splash-item--three {
-  height: 5rem;
+  height: 150px;
   padding: $padding--standard;
+  font-weight: $font-weight--semibold;
 }
 
 .splash-item--one {
-  width: 5rem;
-  border: 10px solid $color--pastel-orange;
+  width: fit-content;
+  border: 10px solid $color--accent;
   border-radius: 100px;
-  color: $color--atomic-tangerine;
+  color: $color--accent;
 }
 
 .splash-item--two {
   width: fit-content;
-  border: 10px solid $color--pastel-orange;
+  border: 10px solid $color--accent;
   border-radius: 100px;
-  color: $color--pastel-blue;
-  background-color: $color--pastel-orange;
+  color: $color--black;
+  background-color: $color--accent;
+  padding: 50px;
 }
 
 .splash-item--three {
   width: fit-content;
-  border: 10px solid $color--pastel-orange;
-  border-radius: 25px;
-  color: $color--pastel-blue;
-  background-color: $color--pastel-orange;
+  border: 10px solid $color--accent;
+  border-radius: 100px;
+  color: $color--black;
+  background-color: $color--accent;
+  padding: 50px;
 }

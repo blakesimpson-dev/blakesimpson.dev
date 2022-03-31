@@ -11,6 +11,7 @@
   padding: $header-padding;
   font-size: $font-size--large;
   background-color: $color--black;
+  border-bottom: 1px solid $color--border;
 
   &__title,
   &__items { 
@@ -18,18 +19,16 @@
       cursor: pointer;
   
       &:hover {
-        color: $color--pastel-blue;
+        color: $color--highlight;
       }
   
       b {
-        color: $color--atomic-tangerine;
+        color: $color--accent;
       }
     }
   }
 
   &__items {
-    margin-right: calc($margin--standard * 2);
-
     > * {
       &:not(:last-child) {
         margin-left: $margin--standard;

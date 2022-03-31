@@ -1,23 +1,16 @@
 <template>
   <Page 
     pageTitle="Landing"
-    :videoBGSource="videoBackground"
   >
     <template #splash>
       <div class="splash">
         <div class="splash__header">
           <div class="splash-row">
-            <div class="splash-item--one">
-              <b>BS</b>
-            </div>
-            <div class="splash-item--two">
-              <span>Developer</span>
-            </div>
+            <div class="splash-item--one">BS</div>
+            <div class="splash-item--two">Developer</div>
           </div>
           <div class="splash-row">
-            <div class="splash-item--three">
-              <span>Musician</span>
-            </div>
+            <div class="splash-item--three">Musician</div>
           </div>
         </div>
         <div class="splash__footer">
@@ -26,10 +19,10 @@
       </div>
     </template>
     <template #content>
-      <img :src="debugImage" style="max-width: 200px" />
+      <img src="/assets/images/kataplexia-vape.jpg" style="max-width: 200px" />
     </template>
     <template #footer>
-      <img :src="debugImage" style="max-width: 200px" />
+      <img src="/assets/images/kataplexia-vape.jpg" style="max-width: 200px" />
     </template>
   </Page>
 </template>
@@ -44,8 +37,6 @@ export default {
 
 <script setup lang="ts">
 import Page from "@/common/components/page/page.vue"
-import debugImage from "@/assets/images/kataplexia-vape.jpg"
-import videoBackground from "@/assets/videos/kataplexia-1080.mp4"
 import "./landing.page.scss"
 </script>
 

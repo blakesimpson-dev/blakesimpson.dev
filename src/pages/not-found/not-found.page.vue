@@ -1,6 +1,6 @@
 <template>
   PAGE NOT FOUND
-  <img :src="debugImage" style="max-width: 200px" />
+  <img src="/assets/images/kataplexia-vape.jpg" style="max-width: 200px" />
 </template>
 
 <script lang="ts">
@@ -12,7 +12,6 @@ export default {
 </script>
 
 <script setup lang="ts">
-import debugImage from "@/assets/images/kataplexia-vape.jpg"
 import "./not-found.page.scss"
 </script>
 

@@ -8,7 +8,10 @@
 
 # Todo
 
-- Create .md documents for all pages outlining what the contents are going to be
+- Rebranding:
+rebrand wordpress
+rebrand youtube
+rebrand gamejolt
 
 # References
 
