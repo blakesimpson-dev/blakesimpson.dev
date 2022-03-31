@@ -1,20 +1,20 @@
 <template>
   <div class="header">
     <div class="header__title">
-      <a @click="onClickHeaderItem('/')">
+      <SmartLink to="/">
         <span class="jp">キャタプレクシア</span>
         <b>&nbsp;◊&nbsp;</b>
         KATAPLEXIA
         <b>&nbsp;◊&nbsp;</b>
         blakesimpson.dev
-      </a>
+      </SmartLink>
     </div>
     <div class="header__items">
-      <a @click="onClickHeaderItem('/about')">about</a>
-      <a @click="onClickHeaderItem('/games')">games</a>
-      <a @click="onClickHeaderItem('/projects')">projects</a>
-      <a @click="onClickHeaderItem('/music')">music</a>
-      <a @click="onClickContact()"><b>&nbsp;◊&nbsp;</b>contact</a>
+      <SmartLink to="/about">about</SmartLink>
+      <SmartLink to="/games">games</SmartLink>
+      <SmartLink to="/projects">projects</SmartLink>
+      <SmartLink to="/music">music</SmartLink>
+      <SmartLink to="mailto: blakesimpson.dev@outlook.com"><b>&nbsp;◊&nbsp;</b>contact</SmartLink>
     </div>
   </div>
 </template>
@@ -28,6 +28,7 @@ export default {
 </script>
 
 <script setup lang="ts">
+import SmartLink from "@/common/components/smart-link/smart-link.vue"
 import router from "@/router"
 import "./header.scss"
 

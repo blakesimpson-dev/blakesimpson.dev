@@ -14,6 +14,4 @@ export default {
 
 <script setup lang="ts">
 import ApplicationLayout from "./layouts/application.layout.vue"
-import "simplebar";
-import "simplebar/dist/simplebar.css";
 </script>

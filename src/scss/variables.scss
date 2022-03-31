@@ -1,23 +1,36 @@
+// $color--pastel-blue: #6c8fb8;
+// $color--pale-cerulean: #9FC0DE;
+// $color--peach-orange: #F2C894;
+// $color--pastel-orange: #FFB347;
+// $color--atomic-tangerine: #FF985A;
+
 $color--white: #e6e6ffff;
-$color--pastel-blue: #6c8fb8;
-$color--pale-cerulean: #9FC0DE;
-$color--peach-orange: #F2C894;
-$color--pastel-orange: #FFB347;
-$color--atomic-tangerine: #FF985A;
-$color--black: #0a0c14ff;
+$color--highlight: #FFB347;
+$color--accent: #9FC0DE;
+$color--black: #0c0f18;
+$color--border: lighten($color--black, 8%);
 
 $font-family--default: "Noto Sans";
 $font-family--jp: "Noto Sans JP";
+
 $font-weight--regular: 400;
 $font-weight--semibold: 600;
 $font-weight--bold: 700;
+
 $font-size--large: 1.75rem;
 $font-size--regular: 1rem;
-$font-size--small: 0.625rem;
+$font-size--small: 0.875rem;
 $font-size--input: 14px;
 
 $header-height: 4rem;
 $header-padding: 1rem;
+
+$border-radius--small: 3px;
+$border-radius--medium: 5px;
+$border-radius--large: 8px;
+$border-radius--xlarge: 10px;
+
+$transition: 0.15s ease-in-out;
 
 $scrollbar-width: 8px; // corresponds to `scrollbar-width: thin;`
 $scrollbar-height: 8px; // corresponds to `scrollbar-width: thin;`

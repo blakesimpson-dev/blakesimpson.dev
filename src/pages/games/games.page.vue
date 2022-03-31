@@ -1,7 +1,6 @@
 <template>
   <Page 
     pageTitle="Games"
-    :videoBGSource="videoBackground"
   >
     <template #splash></template>
     <template #content>
@@ -32,7 +31,6 @@ import { PostData } from "@/common/types"
 import Post from "@/common/components/post/post.vue"
 import Page from "@/common/components/page/page.vue"
 import GamesData from "./games.data.json"
-import videoBackground from "@/assets/videos/kataplexia-1080.mp4"
 import "./games.page.scss"
 
 const posts: Array<PostData> = GamesData

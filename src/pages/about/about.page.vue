@@ -1,7 +1,6 @@
 <template>
   <Page 
     pageTitle="About"
-    :videoBGSource="videoBackground"
   >
     <template #splash>
     </template>
@@ -22,7 +21,6 @@ export default {
 
 <script setup lang="ts">
 import Page from "@/common/components/page/page.vue"
-import videoBackground from "@/assets/videos/kataplexia-1080.mp4"
 import "./about.page.scss"
 </script>
 

@@ -8,13 +8,13 @@
 
 .content {
   position: absolute;
-  top: calc($header-height + $header-padding * 2);
+  top: $header-height;
   width: 100%;
   z-index: $z-index--content;
   font-size: $font-size--regular;
 
   &__splash {
-    min-height: calc(100vh - calc($header-height + $header-padding * 2));
+    min-height: calc(100vh - $header-height);
   }
 
   &__panel {

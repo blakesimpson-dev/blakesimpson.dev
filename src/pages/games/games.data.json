@@ -1,22 +1,41 @@
 [
   {
     "title": "Ghoul Britannia: Land of Hope and Gorey",
-    "content": "Ghoul Britannia: Land of Hope and Gorey is a point and click adventure game, reminiscent of 90's adventure games with story-driven gameplay and puzzles to solve. A unique art style combines beautiful hand-painted 2D backgrounds and lively 3D characters. Guide Hope Andrews home across an undead-infested UK back to London. Along the way team up with an unlikely partner - a sentient zombie called Dave Gorey who formerly worked PR for the government's undead-raising program. Can they make it past the ELU horde together? Was the outbreak an accident, or is there something more sinister going on?",
-    "images": [],
-    "links": []
+    "content": "Ghoul Britannia: Land of Hope and Gorey is a point and click adventure game, reminiscent of 90's adventure games with story-driven gameplay and puzzles to solve. A unique art style combines beautiful hand-painted 2D backgrounds and lively 3D characters.",
+    "images": [
+      {
+        "src": "/assets/images/games/hope-and-gorey-1.png"
+      },
+      {
+        "src": "/assets/images/games/hope-and-gorey-2.png"
+      },
+      {
+        "src": "/assets/images/games/hope-and-gorey-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "Land of Hope and Gorey Trailer",
+        "href": "https://www.youtube.com/watch?v=lds2Vw24TRk"
+      },
+      {
+        "content": "Land of Hope and Gorey on Steam",
+        "href": "https://store.steampowered.com/app/1055030/Ghoul_Britannia_Land_of_Hope_and_Gorey/"
+      }
+    ]
   },
   {
     "title": "Aliensche!",
-    "content": "Aliensche! was HiVE interactive’s entry into Ludum Dare LDJAM #33. The original version was made in ~34 hours. Collect cows and avoid projectiles as an invading alien in an unidentified craft! As an extra terrestrial, you are obviously fascinated by Earth’s bovine inhabitants. Your mission is to collect super cute cow specimens for your research requirements by delivering them to them to the mother ship. However, the Cow Defense Forces have been mobilized! You will need to catch cows while avoiding their attacks so you will have to keep mooooooving. Remember, if you are in trouble you can utilize your advanced cow collecting technology as a weapon against the defenders – pick them up and throw them down hard, or grab their missiles and send them back!",
+    "content": "Aliensche! was my entry into Ludum Dare LDJAM #33. As an extra terrestrial, you are obviously fascinated by Earth’s bovine inhabitants. Collect cows and avoid projectiles as an invading alien in an unidentified craft!",
     "images": [
       {
-        "src": "https://hiveinteractive.files.wordpress.com/2015/08/screen_1.png"
+        "src": "/assets/images/games/aliensche-1.png"
       },
       {
-        "src": "https://hiveinteractive.files.wordpress.com/2015/08/screen_2.png"
+        "src": "/assets/images/games/aliensche-2.png"
       },
       {
-        "src": "https://hiveinteractive.files.wordpress.com/2015/08/screen_3.png"
+        "src": "/assets/images/games/aliensche-3.png"
       }
     ],
     "links": [
@@ -25,5 +44,327 @@
         "href": "https://gamejolt.com/games/aliensche/88150"
       }
     ]
+  },
+  {
+    "title": "Blitz Bandits",
+    "content": "GET BLITZ'D! Blitz Bandits is a 2 player arena shooter with a GAMEBOY aesthetic and a thumping soundtrack by Perth chiptune master ATOMSMASHA. Blitz Bandits toured Australia during SK Games' Interstate Arcade.",
+    "images": [
+      {
+        "src": "/assets/images/games/blitz-1.png"
+      },
+      {
+        "src": "/assets/images/games/blitz-2.png"
+      },
+      {
+        "src": "/assets/images/games/blitz-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "Blitz Bandits Trailer",
+        "href": "https://www.youtube.com/watch?v=F09pRDOUxjw"
+      },
+      {
+        "content": "Blitz Bandits on Game Jolt",
+        "href": "https://gamejolt.com/games/blitz-bandits/15541"
+      },
+      {
+        "content": "ATOMSMASHA on Soundcloud",
+        "href": "https://soundcloud.com/atomsmasha"
+      }
+    ]
+  },
+  {
+    "title": "Bush Bash",
+    "content": "Bush Bash is epic. A two player co-op game, the driver must navigate obstacles and try to pick up fuel cans to keep the car running, and the gunner must clear the enemies that will slowly drain your fuel as they shoot you. The cabinet was once a Mitsubishi Magna, but now it’s been kitted out with a dash display, ammo indicator, radio, and the steering wheel is still actually connected to the tires. How did we do it? Magic.",
+    "images": [
+      {
+        "src": "/assets/images/games/bushbash-1.png"
+      },
+      {
+        "src": "/assets/images/games/bushbash-2.png"
+      },
+      {
+        "src": "/assets/images/games/bushbash-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "Bush Bash Launch",
+        "href": "https://www.youtube.com/watch?v=v6zDTnKGocU"
+      },
+      {
+        "content": "Making of Bush Bash",
+        "href": "https://www.youtube.com/watch?v=8sEWVJV0bbA"
+      },
+      {
+        "content": "SK Parallels - Bush Bash Interview",
+        "href": "https://www.youtube.com/watch?v=qllkE2mU_aA"
+      }
+    ]
+  },
+  {
+    "title": "Catnips",
+    "content": "Catnips is a 2-team cat milking simulator. Described as “nifty” and “horrifying”, deep down the game is just about love, nipples, survival and cat’s milk. Not the easiest to describe in one paragraph, keep an eye out and experience it yourself next time the cats are in town.",
+    "images": [
+      {
+        "src": "/assets/images/games/catnips-1.png"
+      },
+      {
+        "src": "/assets/images/games/catnips-2.png"
+      },
+      {
+        "src": "/assets/images/games/catnips-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "Catnips Trailer",
+        "href": "https://www.youtube.com/watch?v=msECnidIvW0"
+      },
+      {
+        "content": "Making Catnips",
+        "href": "https://www.youtube.com/watch?v=j_XTsG_eGOI&t=1s"
+      }
+    ]
+  },
+  {
+    "title": "Electric Forest",
+    "content": "Electric Forest is a collaboration between SK and local artist Arcadian Dreams. The game consists of floating around a surreal landscape as either a balloon or one of two bees. Up to three players can control at any one time, and when no one is controlling the characters simply float around. The bees can pop the balloon, causing another balloon to replace it, if you want to call that the win condition, be our guest.",
+    "images": [
+      {
+        "src": "/assets/images/games/electric-1.png"
+      },
+      {
+        "src": "/assets/images/games/electric-2.png"
+      },
+      {
+        "src": "/assets/images/games/electric-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "Arcade Exhibtion with Arcadian Dreams",
+        "href": "https://www.youtube.com/watch?v=c5cUeHQ_wWM"
+      }
+    ]
+  },
+  {
+    "title": "Gundash",
+    "content": "Gundash is a 4 player platformer race. Each player can use their joysticks, or keyboard, to move and shoot, and will find shooting backwards is the fastest way forwards. Gundash is played on four podiums, each containing two joysticks, and trimmed with kangaroo hide, because it feels nice. It also is resistant to beer.",
+    "images": [
+      {
+        "src": "/assets/images/games/gundash-1.png"
+      },
+      {
+        "src": "/assets/images/games/gundash-2.png"
+      },
+      {
+        "src": "/assets/images/games/gundash-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "Gundash launch",
+        "href": "https://www.youtube.com/watch?v=B6V1K1tKwT0"
+      }
+    ]
+  },
+  {
+    "title": "Skulls",
+    "content": "Skulls is a very simple 2-4 player game. Each player must collect three of the same object to win the game. It sounds simple, because it is, but the fun comes in getting in the way of other players, stealing the items they want and knocking them off course. Or you can just play nice, but that’s boring.",
+    "images": [
+      {
+        "src": "/assets/images/games/skulls-1.png"
+      },
+      {
+        "src": "/assets/images/games/skulls-2.png"
+      },
+      {
+        "src": "/assets/images/games/skulls-3.png"
+      }
+    ],
+    "links": []
+  },
+  {
+    "title": "Icarus",
+    "content": "Icarus is a 2 player co-op game about saving a sun from aliens, for some reason. Each player controls a satellite in orbit of the sun and must use their laser to hold off the attackers for as long as possible. When both players fire simultaneously, a third, more powerful laser, will activate. This game was made for our milk crate cabinets, and as such only uses two buttons per player.",
+    "images": [
+      {
+        "src": "/assets/images/games/icarus-1.png"
+      },
+      {
+        "src": "/assets/images/games/icarus-2.png"
+      },
+      {
+        "src": "/assets/images/games/icarus-3.png"
+      }
+    ],
+    "links": []
+  },
+  {
+    "title": "Two Shot Robot",
+    "content": "Two Shot is an interesting little 2 player platformer where each player controls a robot with only two bullets. The idea is to use them at just the right time, missing the mark will  leave you defenseless. We also created a single player version set to an 8-bit version of song by The Decline.",
+    "images": [
+      {
+        "src": "/assets/images/games/twoshot-1.png"
+      },
+      {
+        "src": "/assets/images/games/twoshot-2.png"
+      },
+      {
+        "src": "/assets/images/games/twoshot-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "The Decline",
+        "href": "https://www.facebook.com/TheDeclineMusic"
+      }
+    ]
+  },
+  
+  {
+    "title": "RT",
+    "content": "RT is a gallery wanderer. Drift around the gallery, check out the art. Created for the VHS Loser Unit Group Show, the installation version was controlled by two trackballs embedded into a skateboard deck.",
+    "images": [
+      {
+        "src": "/assets/images/games/rt-1.png"
+      },
+      {
+        "src": "/assets/images/games/rt-2.png"
+      },
+      {
+        "src": "/assets/images/games/rt-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "RT Let's Play",
+        "href": "https://www.youtube.com/watch?v=CGb20VE-rkE"
+      }
+    ]
+  },
+  {
+    "title": "Seed x Sable",
+    "content": "This version of Seed was created as a collaboration between SK Games and SABLE, incorporating audio reactive visuals to accompany his music. Seed is a two player game created for milk crate cabinets. Each player controls a small seed/spaceship thing, with only two buttons. They can fly around, avoiding the asteroids, and press both buttons to boost through the other player. Or just chill out and fly around, it’s cool, no need to get violent.",
+    "images": [
+      {
+        "src": "/assets/images/games/seed-1.png"
+      },
+      {
+        "src": "/assets/images/games/seed-2.png"
+      },
+      {
+        "src": "/assets/images/games/seed-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "Sable on SoundCloud",
+        "href": "https://soundcloud.com/thatsableguy"
+      }
+    ]
+  },
+  {
+    "title": "Astral Diplomacy",
+    "content": "Astral is a 2 vs 1 space shooter. Think of it as a boss fight, one player controls the boss and two players control the small attacking ships. It’s much easier to play as the boss, but it’s more satisfying to win as the small ships, an odd trade off creating an interesting asymmetrical game.",
+    "images": [
+      {
+        "src": "/assets/images/games/astral-1.png"
+      },
+      {
+        "src": "/assets/images/games/astral-2.png"
+      },
+      {
+        "src": "/assets/images/games/astral-3.png"
+      }
+    ],
+    "links": []
+  },
+  {
+    "title": "Ocean Commotion",
+    "content": "Ocean Commotion is a nautical whack-a-mole with custom made foot pedals. Two octopuses race to smack the sea creatures first to gain points. On each side of the cabinet there are five foot pedals, each corresponding to a tentacle. It can be played 1v1, or you can open up each side to as many players as you can fit.",
+    "images": [
+      {
+        "src": "/assets/images/games/ocean-1.png"
+      },
+      {
+        "src": "/assets/images/games/ocean-2.png"
+      },
+      {
+        "src": "/assets/images/games/ocean-3.png"
+      }
+    ],
+    "links": []
+  },
+  {
+    "title": "Drop",
+    "content": "Drop is a musical timing game for one or more players. Keeping the glowing drops bouncing will play more of the randomized audio tracks by ATOMSMASHA. It’s like keeping the balloon off the ground, except digital, and with music, and you get a score at the end.",
+    "images": [
+      {
+        "src": "/assets/images/games/drop-1.png"
+      },
+      {
+        "src": "/assets/images/games/drop-2.png"
+      },
+      {
+        "src": "/assets/images/games/drop-3.png"
+      }
+    ],
+    "links": [
+      {
+        "content": "ATOMSMASHA on Soundcloud",
+        "href": "https://soundcloud.com/atomsmasha"
+      }
+    ]
+  },
+  {
+    "title": "Bassball",
+    "content": "Bassball sits at the intersection of fishing and fighting. Players haul up a fish and smack it at their opponent, who can then smack it right back, and so on until someone ends up in the water. It’s very loose and easy to play, plus it’s fish-projectiles, which is nice.",
+    "images": [
+      {
+        "src": "/assets/images/games/bassball-1.png"
+      },
+      {
+        "src": "/assets/images/games/bassball-2.png"
+      },
+      {
+        "src": "/assets/images/games/bassball-3.png"
+      }
+    ],
+    "links": []
+  },
+  {
+    "title": "Cog & Balls",
+    "content": "Cog and Balls is a multiplayer pinball-meets-pong game with a good dose of innuendo. SK Games’ first game to be put in a physical cabinet, it was housed in a cross shaped table constructed from a few trips to the tip.",
+    "images": [
+      {
+        "src": "/assets/images/games/cogandballs-1.png"
+      },
+      {
+        "src": "/assets/images/games/cogandballs-2.png"
+      },
+      {
+        "src": "/assets/images/games/cogandballs-3.png"
+      }
+    ],
+    "links": []
+  },
+  {
+    "title": "Biru",
+    "content": "Biru is a 4 player ninja-kick fight. Each ninja can only dash and fly-kick. Lining up the fly-kick takes skill, as well as avoiding the incoming fly-kicks, it’s just a lot of fly-kicking really. It also looks really pretty.",
+    "images": [
+      {
+        "src": "/assets/images/games/biru-1.png"
+      },
+      {
+        "src": "/assets/images/games/biru-2.png"
+      },
+      {
+        "src": "/assets/images/games/biru-3.png"
+      }
+    ],
+    "links": []
   }
 ]

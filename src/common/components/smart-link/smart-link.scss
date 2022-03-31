@@ -1,0 +1,29 @@
+@import "@/scss/variables.scss";
+
+.smart-link {
+  text-decoration: none;
+  color: $color--white;
+}
+
+.smart-link__mailto {
+  text-decoration: none;
+  color: $color--white;
+}
+
+.smart-link__external {
+  text-decoration: none;
+  color: $color--highlight;
+}
+
+.smart-link__disabled {
+  color: darken($color--highlight, 50%);
+}
+
+.mailto-icon,
+.external-icon {
+  margin-left: 0.25em;
+}
+
+.internal-icon {
+  margin-right: 0.25em;
+}
