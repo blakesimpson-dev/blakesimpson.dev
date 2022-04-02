@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("@/fonts/NotoSans-Italic.woff2") format("woff2"),
-    url("@/fonts/NotoSans-Italic.woff") format("woff");
+  src: url("@/fonts/NotoSans-Italic.woff2") format("woff2"), url("@/fonts/NotoSans-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -11,8 +10,7 @@
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("@/fonts/NotoSans-BoldItalic.woff2") format("woff2"),
-    url("@/fonts/NotoSans-BoldItalic.woff") format("woff");
+  src: url("@/fonts/NotoSans-BoldItalic.woff2") format("woff2"), url("@/fonts/NotoSans-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -92,14 +90,15 @@
   box-sizing: border-box;
   font-family: $font-family--default;
   -webkit-tap-highlight-color: transparent;
+  // line-height: 1.6;
 }
 
 html {
-  color: $color--white;
-  background-color: $color--black;
+  color: $color--text-primary;
+  background-color: $color--bg-primary;
   height: 100%;
   display: flex;
-  scrollbar-color: $color--highlight $color--black;
+  scrollbar-color: $color--accent $color--bg-primary;
   scrollbar-width: thin;
 
   ::-webkit-scrollbar {
@@ -108,15 +107,15 @@ html {
   }
 
   ::-webkit-scrollbar-track {
-    background: $color--black;
+    background: $color--bg-primary;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: $color--highlight;
+    background: $color--accent;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: darken($color--highlight, 5%);
+    background: darken($color--accent, 5%);
   }
 }
 
@@ -139,12 +138,20 @@ body {
   font-family: $font-family--jp;
 }
 
+.highlight {
+  color: $color--highlight;
+}
+
+svg {
+  color: $color--purple;
+}
+
 code {
   font-family: monospace;
   font-style: italic;
-  color: $color--white;
-  background-color: lighten($color--black, 8%);
-  border: 1px solid lighten($color--black, 16%);
+  color: $color--text-primary;
+  background-color: lighten($color--bg-primary, 8%);
+  border: 1px solid lighten($color--bg-primary, 16%);
   border-radius: 2px;
   padding: calc($padding--standard / 4);
   margin: 0 calc($margin--standard / 4) 0 calc($margin--standard / 4);

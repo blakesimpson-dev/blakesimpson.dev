@@ -42,7 +42,7 @@
 <script lang="ts">
 export default {
   name: "SmartLink",
-  inheritAttrs: false,
+  inheritAttrs: true,
   customOptions: {},
 };
 </script>

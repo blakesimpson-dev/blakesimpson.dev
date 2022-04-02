@@ -7,10 +7,10 @@
         <div class="splash__header">
           <div class="splash-row">
             <div class="splash-item--one">BS</div>
-            <div class="splash-item--two">Developer</div>
+            <div class="splash-item--two">developer</div>
           </div>
           <div class="splash-row">
-            <div class="splash-item--three">Musician</div>
+            <div class="splash-item--three">musician</div>
           </div>
         </div>
         <div class="splash__footer">

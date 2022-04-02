@@ -9,6 +9,7 @@
   width: calc(50% - $margin--standard * 4);
   border: 1px solid $color--border;
   border-radius: $border-radius--large;
+  background-color: $color--bg-secondary;
 
   > * {
     margin: $margin--standard;

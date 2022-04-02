@@ -2,21 +2,46 @@
 
 .smart-link {
   text-decoration: none;
-  color: $color--white;
+  color: $color--link;
+
+  &--white {
+    color: $color--fg-dark-1;
+  }
+}
+
+.smart-link, 
+.smart-link--white,
+.smart-link__mailto,
+.smart-link__external {
+  &:hover {
+    color: $color--link-hover;
+  }
 }
 
 .smart-link__mailto {
   text-decoration: none;
-  color: $color--white;
+  color: $color--link;
+
+  &--white {
+    color: $color--fg-dark-1;
+  }
 }
 
 .smart-link__external {
   text-decoration: none;
-  color: $color--highlight;
+  color: $color--link;
+  
+  &--white {
+    color: $color--fg-dark-1;
+  }
 }
 
 .smart-link__disabled {
-  color: darken($color--highlight, 50%);
+  color: darken($color--link, 50%);
+
+  &--white {
+    color: darken($color--fg-dark-1, 50%);
+  }
 }
 
 .mailto-icon,

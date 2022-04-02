@@ -1,20 +1,22 @@
 <template>
   <div class="header">
     <div class="header__title">
-      <SmartLink to="/">
+      <SmartLink class="smart-link--white" to="/">
         <span class="jp">キャタプレクシア</span>
-        <b>&nbsp;◊&nbsp;</b>
-        KATAPLEXIA
-        <b>&nbsp;◊&nbsp;</b>
-        blakesimpson.dev
+        <span class="highlight">&nbsp;◊&nbsp;</span>
+        <span>KATAPLEXIA</span>
+        <span class="highlight">&nbsp;◊&nbsp;</span>
+        <span>blakesimpson.dev</span>
       </SmartLink>
     </div>
     <div class="header__items">
-      <SmartLink to="/about">about</SmartLink>
-      <SmartLink to="/games">games</SmartLink>
-      <SmartLink to="/projects">projects</SmartLink>
-      <SmartLink to="/music">music</SmartLink>
-      <SmartLink to="mailto: blakesimpson.dev@outlook.com"><b>&nbsp;◊&nbsp;</b>contact</SmartLink>
+      <SmartLink class="smart-link--white" to="/about">about</SmartLink>
+      <SmartLink class="smart-link--white" to="/games">games</SmartLink>
+      <SmartLink class="smart-link--white" to="/projects">projects</SmartLink>
+      <SmartLink class="smart-link--white" to="/music">music</SmartLink>
+      <SmartLink class="smart-link__mailto--white" to="mailto: blakesimpson.dev@outlook.com">
+        <span class="highlight">&nbsp;◊&nbsp;</span>contact
+      </SmartLink>
     </div>
   </div>
 </template>
