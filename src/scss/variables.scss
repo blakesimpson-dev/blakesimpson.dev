@@ -1,14 +1,56 @@
-// $color--pastel-blue: #6c8fb8;
-// $color--pale-cerulean: #9FC0DE;
-// $color--peach-orange: #F2C894;
-// $color--pastel-orange: #FFB347;
-// $color--atomic-tangerine: #FF985A;
+// Color references
+$color--0: #212A35;
+$color--1: #F77373;
+$color--2: #A5D069;
+$color--3: #FFD050;
+$color--4: #9174F7;
+$color--5: #DF76C7;
+$color--6: #2ACEC0;
+$color--7: #E9ECEF;
+$color--8: #6F7C88;
+$color--9: #FFA5A5;
+$color--10: #CDECA1;
+$color--11: #FFE98D;
+$color--12: #BAA6FF;
+$color--13: #F5A8E3;
+$color--14: #78F0E6;
+$color--15: #FFFFFF;
 
-$color--white: #e6e6ffff;
-$color--highlight: #FFB347;
-$color--accent: #9FC0DE;
-$color--black: #0c0f18;
-$color--border: lighten($color--black, 8%);
+$color--cyan: #2ACEC0;
+$color--green: #A5D069;
+$color--orange: #FFA25F;
+$color--pink: #DF76C7;
+$color--purple: #9174F7;
+$color--blue: #69A7FF;
+$color--red: #F77373;
+$color--yellow: #FFD050;
+
+$color--fg-dark-1: #E9ECEF; // Main text
+$color--fg-dark-2: #6F7C88; // Comment
+$color--bg-dark-6: #3E4B58; // Selection
+$color--bg-dark-5: #1E2E39; // Border
+$color--bg-dark-4: #172730; // Line highlight, Titlebar
+$color--bg-dark-3: #0E1E25; // Activity bar
+$color--bg-dark-2: #0B181C; // Sidebar
+$color--bg-dark-1: #071113; // Background
+
+$color--primary: #00AD9E;
+$color--transparent: #FFFFFF00;
+$color--white: #ffffff;
+$color--black: #000000;
+
+// Colors
+$color--bg-primary: $color--bg-dark-1;
+$color--bg-secondary: $color--bg-dark-2;
+$color--text-primary: $color--fg-dark-1;
+$color--text-secondary: $color--fg-dark-2;
+
+$color--link: $color--primary;
+$color--link-hover: $color--14;
+
+$color--highlight: $color--purple;
+$color--accent: $color--yellow;
+$color--border: $color--bg-dark-5;
 
 $font-family--default: "Noto Sans";
 $font-family--jp: "Noto Sans JP";
